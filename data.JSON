@@ -1,0 +1,28 @@
+{
+    "dados": {
+        "001": {
+            "nome": "Alberto",
+            "curso": "ES"
+        },
+        "002": {
+            "nome": "Claudio",
+            "curso": "SI"
+        },
+        "003": {
+            "nome": "Alfredo",
+            "curso": "ES"
+        },
+        "004": {
+            "nome": "Juan",
+            "curso": "SI"
+        },
+        "005": {
+            "nome": "Erleson",
+            "curso": "ES"
+        },
+        "006": {
+            "nome": "Emariele",
+            "curso": "SI"
+        }
+    }
+}

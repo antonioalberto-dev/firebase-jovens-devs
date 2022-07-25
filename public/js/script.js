@@ -36,8 +36,11 @@ document.addEventListener("DOMContentLoaded", function () {
         snapshot.forEach((d) => {
           console.log(d.val());
           const div = document.createElement("div");
-          div.innerHTML = d.val().nome + ", " + d.val().idade;
-          document.getElementById("message").appendChild(div);
+          div.innerHTML = `<div class="element">
+          Nome: ${d.val().nome} <br> Curso: ${d.val().curso}
+          </div>`;
+          document.getElementById("result").appendChild(div);
+          //   document.getElementById("message").appendChild(div);
         });
       });
   } catch (e) {

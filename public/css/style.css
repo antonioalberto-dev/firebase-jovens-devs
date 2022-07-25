@@ -61,3 +61,13 @@ body {
     border-top: 16px solid #ffa100;
   }
 }
+
+.element{
+    background-color: rgba(200, 199, 199, 0.141);
+    padding: 3px 10px;
+    margin: 5px 15px;
+    border-radius: 3px;
+    /* width: 170px; */
+    align-items: center;
+    box-shadow: 2px 1px 5px rgba(128, 128, 128, 0.234);
+}
